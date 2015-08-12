@@ -1,4 +1,26 @@
-coz-examples
+{{pkg.name}}
 ============
 
-Examples for coz
+{{pkg.description}}
+
+
+{{#each examples}}
++ [{{titlecase name}}](#{{spinalcase name}})
+{{/each}}
+
+
+{{#each examples}}
+<a name="{{spinalcase name}}"></a>
+{{titlecase name}}
+-------
+
+{{#each files}}
+**[{{name}}](./{{path}})**
+
+```{{{type}}}
+{{{read path}}}
+```
+{{/each}}
+
+
+{{/each}}
