@@ -1,0 +1,14 @@
+logs
+pids
+*.pid
+*.seed
+lib-cov
+.grunt
+.lock-wscript
+build/Release
+node_modules
+.idea
+test/.work/*
+
+.DS_Store
+tmp

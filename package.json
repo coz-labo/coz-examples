@@ -1,0 +1,33 @@
+{
+  "name": "coz-examples",
+  "version": "1.0.0",
+  "description": "Examples for coz",
+  "main": "index.js",
+  "scripts": {
+    "build": "./ci/build.js",
+    "test": "./ci/test.js",
+    "cover": "./ci/cover.js",
+    "report": "./ci/report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coz-repo/coz-examples.git"
+  },
+  "keywords": [
+    "coz",
+    "examples"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coz-repo/coz-examples/issues"
+  },
+  "homepage": "https://github.com/coz-repo/coz-examples#readme",
+  "devDependencies": {
+    "coz": "^1.5.0",
+    "glob": "^5.0.14"
+  }
+}
