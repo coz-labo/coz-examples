@@ -1,7 +1,7 @@
 /**
  * Examples for coz
  * @module coz-examples
- * @version 1.0.1
+ * @version 1.0.2
  */
 
 "use strict";

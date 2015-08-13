@@ -4,7 +4,5 @@ node_js:
 before_install: 
 install:
 - npm install
-before_script:
-- npm link .
 script:
-- "./ci/build.js"
+- "./ci_build.js"
