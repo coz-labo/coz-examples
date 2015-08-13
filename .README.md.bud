@@ -13,6 +13,10 @@ module.exports = {
     mode: '444',
     data: {
         pkg: pkg,
+        repo: 'coz-repo/coz-examples',
+        links: {
+            'coz': 'https://github.com/coz-repo/coz'
+        },
         examples: fs.readdirSync(__dirname)
             .filter(function (dirname) {
                 return !/^[\._]/.test(dirname);
@@ -24,7 +28,6 @@ module.exports = {
                 return /^\d+\-/.test(dirname);
             })
             .map(function (dirname) {
-                console.log(dirname);
                 return {
                     name: dirname,
                     get files() {

@@ -3,6 +3,8 @@ coz-examples
 
 Examples for coz
 
+[![Build Status][my_travis_badge_url]][my_travis_url]
+[![npm version][my_npm_budge_url]][my_npm_url]
 
 + [01 Minimum Demo](#01-minimum-demo)
 + [02 Separated Template](#02-separated-template)
@@ -11,9 +13,12 @@ Examples for coz
 + [06 Customize Coz](#06-customize-coz)
 
 
+<a name="example"></a>
+Examples
+--------
+
 <a name="01-minimum-demo"></a>
-01 Minimum Demo
--------
+### 01 Minimum Demo
 
 **[.who-likes-what.txt.bud](./01-minimum-demo/.who-likes-what.txt.bud)**
 
@@ -60,8 +65,7 @@ Hi, my name is Rita. I like Banana.
 
 
 <a name="02-separated-template"></a>
-02 Separated Template
--------
+### 02 Separated Template
 
 **[.what-colors.html.bud](./02-separated-template/.what-colors.html.bud)**
 
@@ -130,8 +134,7 @@ module.exports = {
 
 
 <a name="04-from-programmatic-api"></a>
-04 From Programmatic Api
--------
+### 04 From Programmatic Api
 
 **[.travel-by-what.txt.bud](./04-from-programmatic-api/.travel-by-what.txt.bud)**
 
@@ -186,8 +189,7 @@ Goes France by Airplane.
 
 
 <a name="05-exec-bud-itself"></a>
-05 Exec Bud Itself
--------
+### 05 Exec Bud Itself
 
 **[.exec-me.txt.bud](./05-exec-bud-itself/.exec-me.txt.bud)**
 
@@ -225,8 +227,7 @@ This file is rendered from: ".exec-me.txt.bud"
 
 
 <a name="06-customize-coz"></a>
-06 Customize Coz
--------
+### 06 Customize Coz
 
 **[.render-by-custom-cli.txt.bud](./06-customize-coz/.render-by-custom-cli.txt.bud)**
 
@@ -446,3 +447,16 @@ coz render ".render-by-custom-cli.txt.bud" -c "use-custom-config-from-cli.config
 ```
 
 
+
+
+<a name="example"></a>
+Links
+--------
+
++ [coz](https://github.com/coz-repo/coz)
+
+
+
+[my_travis_url]: http://travis-ci.org/coz-repo/coz-examples
+[my_npm_url]: http://www.npmjs.org/package/coz-examples
+[my_npm_budge_url]: http://img.shields.io/npm/v/coz-examples.svg?style=flat

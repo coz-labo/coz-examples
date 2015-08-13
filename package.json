@@ -1,13 +1,11 @@
 {
   "name": "coz-examples",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Examples for coz",
   "main": "index.js",
   "scripts": {
-    "build": "./ci/build.js",
-    "test": "./ci/test.js",
-    "cover": "./ci/cover.js",
-    "report": "./ci/report.js"
+    "build": "./ci_build.js",
+    "release": "./ci_release.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +25,8 @@
   },
   "homepage": "https://github.com/coz-repo/coz-examples#readme",
   "devDependencies": {
+    "ape-releasing": "^1.0.14",
+    "ape-tasking": "^1.0.6",
     "coz": "^1.5.0",
     "glob": "^5.0.14"
   }
