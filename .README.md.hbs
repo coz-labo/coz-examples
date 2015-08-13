@@ -7,7 +7,7 @@
 [![npm version][my_npm_budge_url]][my_npm_url]
 
 {{#each examples}}
-+ [{{titlecase name}}](#{{spinalcase name}})
++ [{{titlecase @key}}](#{{spinalcase @key}})
 {{/each}}
 
 
@@ -16,11 +16,11 @@ Examples
 --------
 
 {{#each examples}}
-<a name="{{spinalcase name}}"></a>
-### {{titlecase name}}
+<a name="{{spinalcase @key}}"></a>
+### {{titlecase @key}}
 
 {{#each files}}
-**[{{name}}](./{{path}})**
+**[{{@key}}](./{{path}})**
 
 ```{{{type}}}
 {{{read path}}}
@@ -42,5 +42,6 @@ Links
 
 
 [my_travis_url]: http://travis-ci.org/{{repo}}
+[my_travis_badge_url]: http://img.shields.io/travis/{{repo}}.svg?style=flat
 [my_npm_url]: http://www.npmjs.org/package/{{pkg.name}}
 [my_npm_budge_url]: http://img.shields.io/npm/v/{{pkg.name}}.svg?style=flat

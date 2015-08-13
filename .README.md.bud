@@ -17,42 +17,7 @@ module.exports = {
         links: {
             'coz': 'https://github.com/coz-repo/coz'
         },
-        examples: fs.readdirSync(__dirname)
-            .filter(function (dirname) {
-                return !/^[\._]/.test(dirname);
-            })
-            .filter(function (dirname) {
-                return fs.statSync(dirname).isDirectory();
-            })
-            .filter(function (dirname) {
-                return /^\d+\-/.test(dirname);
-            })
-            .map(function (dirname) {
-                return {
-                    name: dirname,
-                    get files() {
-                        return fs.readdirSync(path.join(__dirname, dirname)).map(function (filename) {
-                            return {
-                                name: filename,
-                                path: path.join(dirname, filename),
-                                get type() {
-                                    var extname = path.extname(filename);
-                                    switch (extname) {
-                                        case '.bud':
-                                        case '.js':
-                                            return 'javascript';
-                                        case '.json':
-                                            return 'json';
-                                        case '.html':
-                                        case '.hbs':
-                                            return 'html';
-                                    }
-                                }
-                            };
-                        })
-                    }
-                }
-            })
+        examples: require('./index.js')
     }
 };
 

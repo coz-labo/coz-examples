@@ -1,0 +1,23 @@
+/**
+ * {{pkg.description}}
+ * @module {{pkg.name}}
+ * @version {{pkg.version}}
+ */
+
+"use strict";
+
+{{#each examples}}
+/** {{titlecase name}} */
+exports['{{name}}'] = {
+{{#each files}}
+    '{{camelcase name}}': {
+        path: '{{{path}}}',
+        type: '{{{type}}}'
+    }{{#if @last}}{{else}},
+{{/if}}
+{{/each}}
+
+};
+
+
+{{/each}}
