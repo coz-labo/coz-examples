@@ -1,6 +1,6 @@
 {
   "name": "coz-examples",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Examples for coz",
   "main": "index.js",
   "scripts": {

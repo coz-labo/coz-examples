@@ -20,7 +20,7 @@ Examples
 <a name="01-minimum-demo"></a>
 ### 01 Minimum Demo
 
-**[whoLikesWhatTxtBud](./01-minimum-demo/.who-likes-what.txt.bud)**
+**[01-minimum-demo/.who-likes-what.txt.bud](./01-minimum-demo/.who-likes-what.txt.bud)**
 
 ```javascript
 /**
@@ -54,7 +54,7 @@ module.exports = {
 };
 
 ```
-**[whoLikesWhatTxt](./01-minimum-demo/who-likes-what.txt)**
+**[01-minimum-demo/who-likes-what.txt](./01-minimum-demo/who-likes-what.txt)**
 
 ```text
 Hi, my name is Mai. I like apple.
@@ -67,7 +67,7 @@ Hi, my name is Rita. I like Banana.
 <a name="02-separated-template"></a>
 ### 02 Separated Template
 
-**[whatColorsHtmlBud](./02-separated-template/.what-colors.html.bud)**
+**[02-separated-template/.what-colors.html.bud](./02-separated-template/.what-colors.html.bud)**
 
 ```javascript
 /**
@@ -96,7 +96,7 @@ module.exports = {
 
 
 ```
-**[whatColorsHtmlHbs](./02-separated-template/.what-colors.html.hbs)**
+**[02-separated-template/.what-colors.html.hbs](./02-separated-template/.what-colors.html.hbs)**
 
 ```html
 <table>
@@ -108,7 +108,7 @@ module.exports = {
     </tbody>
 </table>
 ```
-**[whatColorsHtmlJson](./02-separated-template/.what-colors.html.json)**
+**[02-separated-template/.what-colors.html.json](./02-separated-template/.what-colors.html.json)**
 
 ```json
 {
@@ -119,7 +119,7 @@ module.exports = {
   }
 }
 ```
-**[whatColorsHtml](./02-separated-template/what-colors.html)**
+**[02-separated-template/what-colors.html](./02-separated-template/what-colors.html)**
 
 ```html
 <table>
@@ -136,7 +136,7 @@ module.exports = {
 <a name="04-from-programmatic-api"></a>
 ### 04 From Programmatic Api
 
-**[travelByWhatTxtBud](./04-from-programmatic-api/.travel-by-what.txt.bud)**
+**[04-from-programmatic-api/.travel-by-what.txt.bud](./04-from-programmatic-api/.travel-by-what.txt.bud)**
 
 ```javascript
 /**
@@ -160,7 +160,7 @@ module.exports = {
 
 
 ```
-**[runRenderingJs](./04-from-programmatic-api/run_rendering.js)**
+**[04-from-programmatic-api/run_rendering.js](./04-from-programmatic-api/run_rendering.js)**
 
 ```javascript
 #!/usr/bin/env node
@@ -179,7 +179,7 @@ coz.render([
     console.log(err ? err : 'Done!');
 });
 ```
-**[travelByWhatTxt](./04-from-programmatic-api/travel-by-what.txt)**
+**[04-from-programmatic-api/travel-by-what.txt](./04-from-programmatic-api/travel-by-what.txt)**
 
 ```text
 Goes Tokyo by Train.
@@ -191,7 +191,7 @@ Goes France by Airplane.
 <a name="05-exec-bud-itself"></a>
 ### 05 Exec Bud Itself
 
-**[execMeTxtBud](./05-exec-bud-itself/.exec-me.txt.bud)**
+**[05-exec-bud-itself/.exec-me.txt.bud](./05-exec-bud-itself/.exec-me.txt.bud)**
 
 ```javascript
 #!/usr/bin/env node
@@ -219,7 +219,7 @@ if (main) {
     require('coz').render(__filename);
 }
 ```
-**[execMeTxt](./05-exec-bud-itself/exec-me.txt)**
+**[05-exec-bud-itself/exec-me.txt](./05-exec-bud-itself/exec-me.txt)**
 
 ```text
 This file is rendered from: ".exec-me.txt.bud"
@@ -229,7 +229,7 @@ This file is rendered from: ".exec-me.txt.bud"
 <a name="06-customize-coz"></a>
 ### 06 Customize Coz
 
-**[renderByCustomCliTxtBud](./06-customize-coz/.render-by-custom-cli.txt.bud)**
+**[06-customize-coz/.render-by-custom-cli.txt.bud](./06-customize-coz/.render-by-custom-cli.txt.bud)**
 
 ```javascript
 /**
@@ -247,7 +247,7 @@ module.exports = {
     }
 };
 ```
-**[renderWithCustomSetupTxtBud](./06-customize-coz/.render-with-custom-setup.txt.bud)**
+**[06-customize-coz/.render-with-custom-setup.txt.bud](./06-customize-coz/.render-with-custom-setup.txt.bud)**
 
 ```javascript
 /**
@@ -279,22 +279,22 @@ if (!module.parent) {
     require('coz').render(__filename);
 }
 ```
-**[renderByCustomCliTxt](./06-customize-coz/render-by-custom-cli.txt)**
+**[06-customize-coz/render-by-custom-cli.txt](./06-customize-coz/render-by-custom-cli.txt)**
 
 ```text
 myCustomTmpl01
 ```
-**[renderByMyCustomEngine-01Txt](./06-customize-coz/render-by-my-custom-engine-01.txt)**
+**[06-customize-coz/render-by-my-custom-engine-01.txt](./06-customize-coz/render-by-my-custom-engine-01.txt)**
 
 ```text
 This is good day to die.
 ```
-**[renderByMyCustomTmpl-01Json](./06-customize-coz/render-by-my-custom-tmpl-01.json)**
+**[06-customize-coz/render-by-my-custom-tmpl-01.json](./06-customize-coz/render-by-my-custom-tmpl-01.json)**
 
 ```json
 {"generator":"/Users/okuni/projects/coz/docs/examples/06-customize-coz/render-with-custom-tmpl.js","coz is":"wonderful","$$bud":{"cwd":"/Users/okuni/projects/coz/docs/examples/06-customize-coz","path":"/Users/okuni/projects/coz/docs/examples/06-customize-coz/render-by-my-custom-tmpl-01.json"}}
 ```
-**[renderWithCustomEngineJs](./06-customize-coz/render-with-custom-engine.js)**
+**[06-customize-coz/render-with-custom-engine.js](./06-customize-coz/render-with-custom-engine.js)**
 
 ```javascript
 #!/usr/bin/env node
@@ -366,12 +366,12 @@ coz.render({
     console.log('Compile done with custom engine');
 });
 ```
-**[renderWithCustomSetupTxt](./06-customize-coz/render-with-custom-setup.txt)**
+**[06-customize-coz/render-with-custom-setup.txt](./06-customize-coz/render-with-custom-setup.txt)**
 
 ```text
 Hey, WATCH OUT!!!!
 ```
-**[renderWithCustomTmplJs](./06-customize-coz/render-with-custom-tmpl.js)**
+**[06-customize-coz/render-with-custom-tmpl.js](./06-customize-coz/render-with-custom-tmpl.js)**
 
 ```javascript
 #!/usr/bin/env node
@@ -410,7 +410,7 @@ coz.render({
     console.log('Compile done with custom tmpl.');
 });
 ```
-**[useCustomConfigFromCliConfigJs](./06-customize-coz/use-custom-config-from-cli.config.js)**
+**[06-customize-coz/use-custom-config-from-cli.config.js](./06-customize-coz/use-custom-config-from-cli.config.js)**
 
 ```javascript
 /**
@@ -428,7 +428,7 @@ module.exports = {
     }
 };
 ```
-**[useCustomConfigFromCliSh](./06-customize-coz/use-custom-config-from-cli.sh)**
+**[06-customize-coz/use-custom-config-from-cli.sh](./06-customize-coz/use-custom-config-from-cli.sh)**
 
 ```text
 #!/bin/bash
